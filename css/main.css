@@ -1,0 +1,46 @@
+* {
+	font-family: helvetica;
+}
+
+h1, h2, h3 {
+	color: #03A89E;
+}
+
+p {
+	font-size:14px;
+}
+
+.pLetter:first-letter{
+	color: #FF4500;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+a:link {
+	color: #9F79EE;
+}
+
+a:visited {
+	color: #4B0082;
+}
+
+a:hover {
+	color: #800080;
+}
+
+a:active {
+	color: #BA55D3;
+}
+
+ol li {
+	font-size: 14px;
+	color: #00688B; 	
+}
+
+.pOrange {
+	color: #FF4500;
+}
+
+#pGrey {
+	color: #878787;
+}
