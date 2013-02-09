@@ -7,7 +7,7 @@ body {
 /* ------------- HEADER ------------ */
 
 header {
-	margin-top: 0px; 
+	margin: 0px 0px 15px; 
 	padding: 0px;
 	height: auto;
 	background-color: #262626;
@@ -58,6 +58,12 @@ p {
 }
 
 #content {
+	padding: 10px 20px;
+}
+div img {
+	display: block;
+	margin: auto;
+	padding: 0px 0px 10px;
 }
 
 footer {
@@ -72,12 +78,15 @@ a:link {
 
 a:visited {
 	text-decoration: none;
+	color: #fff;
 }
 
 a:hover {
 	text-decoration: underline;
+	color: #fff;
 }
 
 a:active {
 	text-decoration: none;
+	color: #fff;
 }
