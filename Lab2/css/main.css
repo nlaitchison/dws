@@ -1,9 +1,13 @@
 body {
 	font-family: Arial, sans-serif;
+	/* background-color: #424242; */
+	margin: 0px;
 }
 
 h1 {
-	
+	font-size: 45px;
+	color: #fff;
+	margin-top: 0px;
 }
 
 h2 {
@@ -19,24 +23,16 @@ p {
 	line-height: 1.5;
 }
 
-a:link {
-
-}
-
-a:visited {
-
-}
-
-a:hover {
-
-}
-
-a:active {
-
-}
-
 #wrapper {
+	width: 960px;
+	padding: 0px;
+	margin: 0px auto;
+}
 
+header {
+	margin-top: 0px; 
+	padding: 10px 20px;
+	background-color: #262626;
 }
 
 nav {
@@ -48,5 +44,26 @@ nav {
 }
 
 footer {
+
+}
+
+/* ---------------- Links ---------------- */
+
+a:link {
+	text-decoration: none;
+
+}
+
+a:visited {
+	text-decoration: none;
+
+}
+
+a:hover {
+
+}
+
+a:active {
+	text-decoration: none;
 
 }
