@@ -17,7 +17,7 @@ header h1 {
 	margin: 0px 20px;
 	padding: 10px 0px;
 	font-size: 45px;
-	color: #fff;
+	color: #EBEBEB;
 }
 
 nav {
@@ -68,6 +68,8 @@ div img {
 
 footer {
 	padding: 5px 0px;
+	background-color: #262626;
+	color: #EBEBEB;
 	text-align: center;
 }
 
@@ -76,20 +78,20 @@ footer {
 
 a:link {
 	text-decoration: none;
-	color: #fff;
+	color: #EBEBEB;
 }
 
 a:visited {
 	text-decoration: none;
-	color: #fff;
+	color: #EBEBEB;
 }
 
 a:hover {
 	text-decoration: underline;
-	color: #fff;
+	color: #EBEBEB;
 }
 
 a:active {
 	text-decoration: none;
-	color: #fff;
+	color: #EBEBEB;
 }
