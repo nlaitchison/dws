@@ -46,7 +46,7 @@ h3 {
 }
 
 p {
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 1.5;
 }
 
@@ -60,10 +60,16 @@ p {
 #content {
 	padding: 10px 20px;
 }
+
 div img {
-	display: block;
-	margin: auto;
-	padding: 0px 0px 10px;
+	/* display: block; 
+	margin: auto; */
+	padding: 0px 0px 10px 20px;
+	float: right;
+}
+
+p.first {
+	margin-top: 0px;
 }
 
 footer {
