@@ -16,7 +16,7 @@ header {
 header h1 {
 	margin: 0px 20px;
 	padding: 10px 0px;
-	font-size: 45px;
+	font-size: 50px;
 	color: #EBEBEB;
 }
 
@@ -84,20 +84,24 @@ footer {
 
 a:link {
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #EBEBEB;
 }
 
 a:visited {
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #EBEBEB;
 }
 
 a:hover {
 	text-decoration: underline;
+	text-transform: uppercase;
 	color: #EBEBEB;
 }
 
 a:active {
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #EBEBEB;
 }
