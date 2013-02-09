@@ -1,10 +1,18 @@
 body {
 	font-family: Arial, sans-serif;
-	/* background-color: #424242; */
+	background-color: #EBEBEB;
 	margin: 0px;
 }
 
-/* ------------- HEADER ------------ */
+#wrapper {
+	margin: 0px auto;
+	padding: 0px;
+	width: 960px;
+	background-color: #D6D6D6;
+}
+
+
+/* ----------------------------- HEADER ------------------------------- */
 
 header {
 	margin: 0px 0px 15px; 
@@ -15,8 +23,10 @@ header {
 
 header h1 {
 	margin: 0px 20px;
-	padding: 10px 0px;
+	padding: 12px 0px;
 	font-size: 50px;
+	/* font-variant: small-caps; */
+	letter-spacing: 1px;
 	color: #EBEBEB;
 }
 
@@ -37,25 +47,8 @@ nav ul {
 	padding: 0px;
 }
 
-/* ------------- OTHER -------------- */
 
-h2 {	
-}
-
-h3 {
-}
-
-p {
-	font-size: 13px;
-	line-height: 1.5;
-}
-
-#wrapper {
-	margin: 0px auto;
-	padding: 0px;
-	width: 960px;
-	background-color: #D6D6D6;
-}
+/* ---------------------------- CONTENT ------------------------------- */
 
 #content {
 	padding: 10px 20px;
@@ -72,6 +65,21 @@ p.first {
 	margin-top: 0px;
 }
 
+p {
+	font-size: 13px;
+	line-height: 1.5;
+}
+
+h2 {
+	/* font-variant: small-caps; */
+}
+
+h3 {
+}
+
+.firstWord {
+	font-variant: small-caps;
+}
 footer {
 	padding: 5px 0px;
 	background-color: #262626;
@@ -80,7 +88,7 @@ footer {
 }
 
 
-/* ---------------- Links ---------------- */
+/* ------------------------------ LINKS ------------------------------- */
 
 a:link {
 	text-decoration: none;
