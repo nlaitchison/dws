@@ -20,7 +20,7 @@ body {
 /* ------------------- HEADER ------------------- */
 
 header{
-	margin: 0 0 25px;
+	margin: 0;
 	padding: 5px 0;
 	height: 60px;
 	background-color: #FFB84D;
@@ -79,12 +79,17 @@ nav a:hover {
 /* ------------------- SECTIONS-------------------  */
 
 section {
-	background-color: red;
+	padding: 10px 0;
+	clear: both;
+}
+section.grey_bg {
+	background-color: #E1E1E1;
 }
 
 h2 {
+	margin-top: 0;
 	font-size: 26px;
-	color: #FFB84D;
+	color: #19AFB3;
 }
 
 .divider {
@@ -104,6 +109,7 @@ h2 {
 }
 
 ul#gallery {
+	clear: both;
 	overflow: hidden;
 	padding: 0;
 	margin: 25px 0;
@@ -114,7 +120,7 @@ ul#gallery li{
 
 	display: inline;
 	float: left;
-	margin-right: 20px;
+	margin-right: 5px;
 	padding: 5px 5px 2px; 
 	background-color: #FFB84D; 
 	list-style-type: none;	
