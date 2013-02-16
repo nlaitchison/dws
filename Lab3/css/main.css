@@ -13,7 +13,7 @@ body {
 }
 
 #main_content {
-	width: 960px;
+	/* width: 960px; */
 	margin:auto;
 }
 
@@ -32,7 +32,7 @@ header{
 	margin: auto;
 }
 
-h1 {
+header h1 {
 	float: left;
 	margin: 0;
 	padding: 0;
@@ -51,6 +51,7 @@ nav ul{
 	margin: 12px 0;
 	padding: 0;
 	width: 420px;
+	overflow: hidden;
 	
 }
 
@@ -69,7 +70,22 @@ nav a{
 	display: block;
 }
 
+nav a:hover {
+	color: #FFF;
+	background-color: #FF9900;
+	text-decoration: none;
+}
+
 /* ------------------- SECTIONS-------------------  */
+
+section {
+	background-color: red;
+}
+
+h2 {
+	font-size: 26px;
+	color: #FFB84D;
+}
 
 .divider {
 	float: left;
@@ -81,10 +97,37 @@ nav a{
 
 .column {
 	margin: 10px 0;
-	padding: 0 15px;
-	width: 420px;
+	padding: 0 10px;
+	width: 437px;
 	float: left;
 	overflow: hidden;
+}
+
+ul#gallery {
+	overflow: hidden;
+	padding: 0;
+	margin: 25px 0;
+
+}
+
+ul#gallery li{
+
+	display: inline;
+	float: left;
+	margin-right: 20px;
+	padding: 5px 5px 2px; 
+	background-color: #FFB84D; 
+	list-style-type: none;	
+	
+}
+
+ul#gallery a {
+	display: block;
+}
+
+#see_also {
+	margin-top: 15px;
+	clear: both;
 }
 
 /* ------------------- FOOTER -------------------  */
@@ -115,7 +158,6 @@ a:visited {
 
 a:hover {
 	color: #FFF;
-	background-color: #FF9900;
 	text-decoration: none;
 }
 
@@ -125,6 +167,11 @@ a:active {
 }
 
 /* ------------------- OTHER -------------------  */
+
+.center {
+	width: 960px;
+	margin: auto;
+}
 
 .clear_fix {
 	clear: both;
