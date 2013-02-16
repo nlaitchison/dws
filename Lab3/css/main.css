@@ -1,13 +1,15 @@
+/* ------------------- MAIN ------------------- */
+
 body {
-	margin: 0px;
-	font-family: Arial, sans-serif;
+	margin: 0;
+	font: 14px Arial, sans-serif;
 	background-color: #EBEBEB;
 	
 }
 
 #wrapper {
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #main_content {
@@ -18,9 +20,11 @@ body {
 /* ------------------- HEADER ------------------- */
 
 header{
+	margin: 0 0 25px;
+	padding: 5px 0;
+	height: 60px;
 	background-color: #FFB84D;
-	margin-top: 0;
-	padding: 5px 0px;
+/* 	box-shadow: 0 10px 20px #FFD699; */
 }
 
 #content_header{
@@ -28,52 +32,68 @@ header{
 	margin: auto;
 }
 
+h1 {
+	float: left;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font: 50px 'Passero One', cursive;
+	text-transform: uppercase;
+	color: 	#FFF;
+}
+
 nav{
 
 }
 
 nav ul{
-	padding: 0;
- 	background-color: red; 
-/* 	overflow: hidden; */
-	width: 400px;
 	float: right;
+	margin: 12px 0;
+	padding: 0;
+	width: 420px;
+	
 }
 
 nav li{
 	display: inline;
-	padding: 0px 0px;
-	list-style-type: none;	
 	float: left;
-	line-height: 30px;
-	width: 100px;
+	padding: 0 0;
+	width: 105px;
+	list-style-type: none;	
+	line-height: 35px;
 	text-align: center;
-	
-	
+	font-size: 18px;	
 }
 
 nav a{
 	display: block;
-	*/ background-color: #FF9900; */
-	
-
 }
 
-/* ------------------- OTHER -------------------  */
+/* ------------------- SECTIONS-------------------  */
 
-h1 {
+.divider {
 	float: left;
-	margin: 0;
+	margin: 20px;
+	width: 2px;
+	height: 400px;
+	background-color: #DDDDDD;
 }
 
-p.clearFix {
-	clear: both;
+.column {
+	margin: 10px 0;
+	padding: 0 15px;
+	width: 420px;
+	float: left;
+	overflow: hidden;
 }
+
+/* ------------------- FOOTER -------------------  */
 
 footer {
 	padding: 20px;
 	text-align: center;
 	background-color: #FFB84D; 
+	clear: both;
 }
 
 footer p {
@@ -84,22 +104,28 @@ footer p {
 /* ------------------- LINKS -------------------  */
 
 a:link {
-	color: #fff;
+	color: #FFF;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #fff;
+	color: #FFF;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #fff;
+	color: #FFF;
 	background-color: #FF9900;
 	text-decoration: none;
 }
 
 a:active {
-	color: #fff;
+	color: #FFF;
 	text-decoration: none;
+}
+
+/* ------------------- OTHER -------------------  */
+
+.clear_fix {
+	clear: both;
 }
