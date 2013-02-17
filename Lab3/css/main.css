@@ -86,20 +86,19 @@ nav a:hover {
 	background-color: #5fC5C8;
 }
 
-/* #banner img { 
-	
-	width: 960px;
-	margin: auto;
-}*/
-
 section {
-	padding: 10px 0;
+	padding: 0;
 	clear: both;
 }
 .grey_bg {
 	background-color: #E8E8E8;
-/* 	height: 550px; */
 	padding: 10px 0;
+}
+
+.grey_bg_two {
+	background-color: #E8E8E8;
+	padding: 10px 0;
+	height: 390px;
 }
 
 h2 {
@@ -144,7 +143,7 @@ ul#gallery {
 	clear: both;
 	overflow: hidden;
 	padding: 0;
-	margin: 25px 0;
+	margin: auto;
 
 }
 
@@ -152,9 +151,9 @@ ul#gallery li{
 
 	display: inline;
 	float: left;
-	margin-right: 5px;
-	padding: 5px 5px 2px; 
-	background-color: #5fC5C8; 
+	margin: 15px 30px 15px 0;
+	/*padding: 5px 5px 2px; 
+	background-color: #5fC5C8; */
 	list-style-type: none;	
 	
 }
@@ -165,7 +164,7 @@ ul#gallery a {
 
 #see_also {
 	width: 220px;
-	margin: 10px 0;
+	margin: 15px 0;
 	padding: 0 10px;
 	float: right;
 	background-color: #E8E8E8;
@@ -186,11 +185,13 @@ h3 {
 }
 
 #see_also ul li{
-/* 	list-style-type: none;  */
 	padding: 3px 0;
 }
 
-
+.column_two img {
+	float: left;
+	padding-right: 12px;
+}
 /* ------------------- FOOTER -------------------  */
 
 
