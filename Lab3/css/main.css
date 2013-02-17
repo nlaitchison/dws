@@ -24,9 +24,9 @@ body {
 
 header{
 	margin: 0;
-	padding: 5px 0;
+	padding: 0;
 	height: 60px;
-	background-color: #FFB84D;
+	background-color: #F5563C;
 /* 	box-shadow: 0 10px 20px #FFD699; */
 }
 
@@ -75,28 +75,37 @@ nav a{
 
 nav a:hover {
 	color: #FFF;
-	background-color: #FF9900;
+	background-color: #E94A30;
 	text-decoration: none;
 }
 
 
 /* ------------------- SECTIONS-------------------  */
 
+#banner {
+	background-color: #5fC5C8;
+}
+
+/* #banner img { 
+	
+	width: 960px;
+	margin: auto;
+}*/
 
 section {
 	padding: 10px 0;
 	clear: both;
 }
 .grey_bg {
-	background-color: #ECEBEB;
-	height: 550px;
-	padding-top: 15px;
+	background-color: #E8E8E8;
+/* 	height: 550px; */
+	padding: 10px 0;
 }
 
 h2 {
 	margin-top: 0;
 	font-size: 26px;
-	color: #19AFB3;
+	color: #F5563C;
 }
 
 .divider {
@@ -104,7 +113,7 @@ h2 {
 	margin: 20px;
 	width: 2px;
 	height: 355px;
-	background-color: #DDDDDD;
+	background-color: #DDD;
 }
 
 .divider_two {
@@ -112,15 +121,15 @@ h2 {
 	margin: 20px;
 	width: 2px;
 	height: 510px;
-	background-color: #DDDDDD;
+	background-color: #DDD;
 }
 
 .column {
 	margin: 10px 0;
 	padding: 0 10px;
-	width: 710px;
+	width: 700px;
 	float: left;
-/* overflow: hidden; */
+	overflow: hidden;
 }
 
 ul#gallery {
@@ -137,7 +146,7 @@ ul#gallery li{
 	float: left;
 	margin-right: 5px;
 	padding: 5px 5px 2px; 
-	background-color: #FFB84D; 
+	background-color: #5fC5C8; 
 	list-style-type: none;	
 	
 }
@@ -147,27 +156,29 @@ ul#gallery a {
 }
 
 #see_also {
-	width: 180px;
-	margin-top: 0;
-	padding: 0 15px;
+	width: 210px;
+	margin: 10px 0;
+	padding: 0 10px;
 	float: right;
-	background-color: #DDD;
+	background-color: #E8E8E8;
+	overflow: hidden;
 }
 
 h3 {
-	margin: 15px 0 5px;
+	margin: 5px 0 5px;
 	padding: 0;
-	font-size: 20px;
-	color: #19AFB3;	
+	font-size: 22px;
+	color: #F5563C;	
 }
 
 #see_also ul{
-	margin-top: 10px;
-	padding: 0;
+	margin: 0 0 10px;
+	padding: 5px 0 5px 30px;
+	width: 192px;
 }
 
 #see_also ul li{
-	list-style-type: none;
+/* 	list-style-type: none;  */
 	padding: 3px 0;
 }
 
@@ -178,7 +189,7 @@ h3 {
 footer {
 	padding: 20px;
 	text-align: center;
-	background-color: #FFB84D; 
+	background-color: #F5563C; 
 	clear: both;
 }
 
