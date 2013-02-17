@@ -4,8 +4,7 @@
 body {
 	margin: 0;
 	font: 14px Arial, sans-serif;
-	background-color: #FCFCFC;
-	
+	background-color: #FCFCFC;	
 }
 
 #wrapper {
@@ -159,8 +158,6 @@ ul#gallery a {
 	background-color: #E8E8E8;
 	overflow: hidden;
 }
-
-
 
 #see_also ul{
 	width: 202px;
