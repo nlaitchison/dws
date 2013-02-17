@@ -124,10 +124,18 @@ h2 {
 	background-color: #DDD;
 }
 
-.column {
+.column_one {
 	margin: 10px 0;
 	padding: 0 10px;
-	width: 700px;
+	width: 690px;
+	float: left;
+	overflow: hidden;
+}
+
+.column_two { 
+	margin: 10px 0;
+	padding: 0 10px;
+	width: 439px;
 	float: left;
 	overflow: hidden;
 }
@@ -156,7 +164,7 @@ ul#gallery a {
 }
 
 #see_also {
-	width: 210px;
+	width: 220px;
 	margin: 10px 0;
 	padding: 0 10px;
 	float: right;
@@ -174,7 +182,7 @@ h3 {
 #see_also ul{
 	margin: 0 0 10px;
 	padding: 5px 0 5px 30px;
-	width: 192px;
+	width: 202px;
 }
 
 #see_also ul li{
