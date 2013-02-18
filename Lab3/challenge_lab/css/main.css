@@ -12,7 +12,7 @@ body#main_page {
 
 
 #header {
-	background: url("../images/header_content_bg.png") no-repeat center scroll;
+	background: #f0eee6 url("../images/header_content_bg.png") no-repeat center scroll;
 	height: 550px;
 	margin: 0;
 	padding: 0;
@@ -29,7 +29,7 @@ body#main_page {
 }
 
 #main_navigation {
-	background-color: #fdfdfc;
+	background: url('../images/navigation_bg.png') repeat-x scroll transparent;
 }
 
 #main_navigation ul {
@@ -42,20 +42,30 @@ body#main_page {
 #main_navigation li {
 	display: inline;
 	float: left;
-	width: 128px;
+	width: 120px;
 	padding: 0;
 	list-style-type: none;	
 	line-height: 50px;
 	text-align: center;
 	font-size: 12px;
+	font-weight: bold;
 	text-transform: uppercase;
 }
 
 #main_navigation a {
-	display: block;
+	display: block
 }
 
 .current_page_item {
+	background-color: #222;
+	color: #fff;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	height: 60px;
+}
+
+#main_navigation .current_page_item a {
+	color: #fff;
 }
 
 #header_content {
