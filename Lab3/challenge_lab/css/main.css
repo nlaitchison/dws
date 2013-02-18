@@ -58,22 +58,34 @@ body#main_page {
 
 .current_page_item {
 	background-color: #222;
-	color: #fff;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	height: 60px;
 }
 
 #main_navigation .current_page_item a {
-	color: #fff;
+	color: #fcfcfa;
 }
 
 #header_content {
-	
+	margin: 40px 0 0 175px;
+	width: 460px;
+	font-family: 'geoslb712_md_btmedium', Arial, sans-serif;
 }
 
 h1 {
+	font-size: 50px;
+	color: #222;
+	margin: 10px 0;
+	
 }
+
+#header_content p {
+	margin: 10px 0;
+	font-size: 25px;
+	color: #bb0000;
+} 
+
 
 /* ----------------------- MAIN ----------------------- */ 
 
@@ -144,5 +156,17 @@ a:active {
 
 
 .inner {
+}
+
+@font-face {
+    font-family: 'geoslb712_md_btmedium';
+    src: url('../font4605-webfont.eot');
+    src: url('4605-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/4605-webfont.woff') format('woff'),
+         url('../font4605-webfont.ttf') format('truetype'),
+         url('../font4605-webfont.svg#geoslb712_md_btmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
