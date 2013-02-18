@@ -1,7 +1,8 @@
 body#main_page {
+	background-color: #f8f7f3;
 	margin: 0;
 	padding: 0;
-	background-color: #f8f7f3;
+	
 }
 
 #page{
@@ -16,8 +17,6 @@ body#main_page {
 #header {
 	background: #f0eee6 url("../images/header_content_bg.png") no-repeat center scroll;
 	height: 550px;
-/* 	margin: 0; 
-	padding: 0;*/
 }
 
 #logo {
@@ -35,10 +34,10 @@ body#main_page {
 }
 
 #main_navigation ul {
-	overflow: hidden;
 	width: 960px;
 	margin: 0 auto;	
 	padding: 0;
+	overflow: hidden;
 }
 
 #main_navigation li {
@@ -46,18 +45,19 @@ body#main_page {
 	float: left;
 	width: 120px;
 	padding: 0;
+	font-size: 12px;
+	font-weight: bold;
 	list-style-type: none;	
 	line-height: 50px;
 	text-align: center;
-	font-size: 12px;
-	font-weight: bold;
 	text-transform: uppercase;
+	overflow: hidden;
 }
 
 #main_navigation a {
 	display: block;
-	color: #222;
 	text-decoration: none;
+	color: #222;
 }
 
 .current_page_item {
@@ -72,16 +72,15 @@ body#main_page {
 }
 
 #header_content {
-	margin: auto;
-	padding: 15px 0 0 40px;
 	width: 960px;
+	margin: 0 auto;
+	padding: 15px 0 0 40px;
 	font-family: 'geoslb712_md_btmedium', Arial, sans-serif;
 }
 
 h1 {
-	font-size: 50px;
 	margin: 10px 0;
-	
+	font-size: 50px;	
 }
 
 #header_content p {
@@ -92,7 +91,7 @@ h1 {
 } 
 
 
-/* ----------------------- MAIN ----------------------- */ 
+/* ----------------------- MAIN CONTENT----------------------- */ 
 
 
 #main_container {
@@ -100,20 +99,15 @@ h1 {
 	margin: 0 auto;
 }
 
-#content {
-
-}
-
 .featured_info {
-	margin: -33px 0;
-	
+	margin: -33px 0;	
 }
 
 .info_box {
-	width: 235px;
-	margin-right: 5px;
 	background: #fff url('../images/info_box_bg.png') no-repeat bottom scroll;
 	float: left;
+	width: 235px;
+	margin-right: 5px;
 	overflow: hidden;
 }
 
@@ -133,18 +127,19 @@ h1 {
 }
 
 .info_box a.read_more {
-	display: block;
 	background: #fff url('../images/read_more.png') no-repeat right scroll;
+	display: block;
+	float: right;
 	width: 63px;
 	height: 30px;
-	float: right;
 	margin: 0 20px 25px 0;
-	color: #fff;
+	font-size: 10px;
+	font-weight: bold;
 	line-height: 36px;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 10px;
-	font-weight: bold;
+	color: #fff;
+	overflow: hidden;
 }
 
 .main_page_widgets {
@@ -155,6 +150,7 @@ h1 {
 	float: left;
 	width: 435px;
 	margin: 18px 20px 25px 20px;
+	overflow: hidden;
 }
 .widget_header {
 	margin: 0;
@@ -165,15 +161,16 @@ h1 {
 }
 
 .divider {
-	height: 1px;
 	background-color: #e2e0d7;
 	border-bottom: 1px solid #fff;
+	height: 1px;
 	margin: 18px 0;
 }
+
 h2{
-	font: 20px 'geoslb712_md_btmedium', Arial, sans-serif;
 	margin: 0;
 	padding: 15px 10px 15px 90px;
+	font: 20px 'geoslb712_md_btmedium', Arial, sans-serif;
 }
 
 h3{
