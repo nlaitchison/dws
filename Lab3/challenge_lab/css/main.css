@@ -16,8 +16,8 @@ body#main_page {
 #header {
 	background: #f0eee6 url("../images/header_content_bg.png") no-repeat center scroll;
 	height: 550px;
-	margin: 0;
-	padding: 0;
+/* 	margin: 0; 
+	padding: 0;*/
 }
 
 #logo {
@@ -73,7 +73,7 @@ body#main_page {
 
 #header_content {
 	margin: auto;
-	padding: 40px 0 0 0px;
+	padding: 15px 0 0 40px;
 	width: 960px;
 	font-family: 'geoslb712_md_btmedium', Arial, sans-serif;
 }
@@ -105,7 +105,7 @@ h1 {
 }
 
 .featured_info {
-	margin: -30px 0;
+	margin: -33px 0;
 	
 }
 
@@ -140,7 +140,7 @@ h1 {
 	float: right;
 	margin: 0 20px 25px 0;
 	color: #fff;
-	line-height: 35px;
+	line-height: 36px;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 10px;
@@ -151,15 +151,25 @@ h1 {
 	clear: both;
 }
 
+.widget_text {
+	float: left;
+	width: 435px;
+	margin: 18px 20px 25px 20px;
+}
 .widget_header {
+	margin: 0;
 }
 
 .widget_content {
+	line-height: 1.75;
 }
 
-.widget_text {
+.divider {
+	height: 1px;
+	background-color: #e2e0d7;
+	border-bottom: 1px solid #fff;
+	margin: 18px 0;
 }
-
 h2{
 	font: 20px 'geoslb712_md_btmedium', Arial, sans-serif;
 	margin: 0;
@@ -167,6 +177,8 @@ h2{
 }
 
 h3{
+	font: 14px 'geoslb712_md_btmedium', Arial, sans-serif;
+	text-transform: uppercase;	
 }
 
 
@@ -200,7 +212,7 @@ a:visited {
 
 a:hover {
 	color: #bb0000;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 a:active {
@@ -211,7 +223,8 @@ a:active {
 /* ----------------------- OTHER ----------------------- */ 
 
 
-.inner {
+.push{
+	clear: both;	
 }
 
 @font-face {
