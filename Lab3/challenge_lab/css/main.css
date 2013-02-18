@@ -1,10 +1,12 @@
 body#main_page {
 	margin: 0;
 	padding: 0;
+	background-color: #f8f7f3;
 }
 
 #page{
 	font: 13px Arial, sans-serif;
+	color: #222;
 }
 
 
@@ -53,7 +55,9 @@ body#main_page {
 }
 
 #main_navigation a {
-	display: block
+	display: block;
+	color: #222;
+	text-decoration: none;
 }
 
 .current_page_item {
@@ -75,7 +79,6 @@ body#main_page {
 
 h1 {
 	font-size: 50px;
-	color: #222;
 	margin: 10px 0;
 	
 }
@@ -91,18 +94,59 @@ h1 {
 
 
 #main_container {
+	width: 960px;
+	margin: 0 auto;
 }
 
 #content {
+
 }
 
 .featured_info {
+	margin: -30px 0;
+	
 }
 
 .info_box {
+	width: 235px;
+	margin-right: 5px;
+	background: #fff url('../images/info_box_bg.png') no-repeat bottom scroll;
+	float: left;
+	overflow: hidden;
 }
 
-#main_page_widgets {
+.info_box .inner p {
+	clear: left;
+	margin: 0;
+	padding: 0 20px 5px 20px;
+	line-height: 1.75;
+	color: #666;
+
+}
+
+.info_box img {
+	float: left;
+	width: 85px;
+	margin: 0;
+}
+
+.info_box a.read_more {
+	display: block;
+	background: #fff url('../images/read_more.png') no-repeat right scroll;
+	width: 63px;
+	height: 30px;
+	float: right;
+	margin: 0 20px 25px 0;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.main_page_widgets {
+	clear: both;
 }
 
 .widget_header {
@@ -115,6 +159,9 @@ h1 {
 }
 
 h2{
+	font: 20px 'geoslb712_md_btmedium', Arial, sans-serif;
+	margin: 0;
+	padding: 15px 10px 15px 90px;
 }
 
 h3{
@@ -125,30 +172,37 @@ h3{
 
 
 #footer {
+	
+	background-color: #f0eee6;
 }
 
 .container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 32px 0;
+	font: 12px Arial, sans-serif;
 }
 
-/* ----------------------- FOOTER ----------------------- */ 
+
+/* ----------------------- LINKS ----------------------- */ 
 
 a:link {
-	color: #222;
+	color: #bb0000;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #222;
+	color: #bb0000;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #222;
+	color: #bb0000;
 	text-decoration: none;
 }
 
 a:active {
-	color: #222;
+	color: #bb0000;
 	text-decoration: none;
 }
 
