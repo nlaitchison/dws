@@ -21,7 +21,7 @@ p {
 h1, h2 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: normal;
-	color: #088b9e;	
+	color: #43e7ff;	
 	margin-top: 0;
 }
 
@@ -69,7 +69,7 @@ nav li {
 }
 
 nav a {
-	background: url(../images/nav.jpg) no-repeat;
+	background: url(../images/nav_v4.jpg) no-repeat;
 	display: block;
 	height: 85px;	
 	text-indent: 100%;
