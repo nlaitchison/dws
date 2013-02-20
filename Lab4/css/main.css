@@ -5,14 +5,14 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url(../images/body_bg.jpg) #e6e6e6;
+	background: linear-gradient(to top, rgba(255,255,255,0), rgba(100,100,100,1)), url(../images/body_bg.jpg) #e6e6e6;
 }
 
 #wrapper {
 
 }
 
-p {
+p, dl, ul{
 	font: 13px/1.5 Helvetica, Arial, sans-serif;
 	color: #222;
 	margin-top: 0;
@@ -21,7 +21,7 @@ p {
 h1, h2 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: normal;
-	margin-top: 0;
+	margin: 0;
 }
 
 
@@ -107,7 +107,6 @@ nav a:hover{
 
 h1 {
 	font-size: 45px;
-	margin-bottom: 0;
 	font-variant: small-caps;
 	color: #43e7ff;	
 }
@@ -164,11 +163,12 @@ h1 {
 h2 {
 	font-size: 30px;
 	color: #088b9e;
+	margin: 0 0 5px;
 }
 
 .float_content {
 	float: left;
-	width: 590px;
+	width: 600px;
 	padding-right: 10px;
 	overflow: hidden;
 }
@@ -176,8 +176,12 @@ h2 {
 aside {
 	float: right;
 	width: 290px;
-	padding-left; 10px;
+	padding-left: 10px;
 	overflow: hidden;
+}
+
+dl dt {
+	font-weight: bold;
 }
 
 /* -----------------------------------------
