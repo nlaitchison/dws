@@ -21,7 +21,6 @@ p {
 h1, h2 {
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: normal;
-	color: #43e7ff;	
 	margin-top: 0;
 }
 
@@ -110,6 +109,7 @@ h1 {
 	font-size: 45px;
 	margin-bottom: 0;
 	font-variant: small-caps;
+	color: #43e7ff;	
 }
 
 #banner_bg {
@@ -136,12 +136,17 @@ h1 {
 }
 
 .divider {
+	margin: 20px 0 0;
 	width: 910px;
 	height: 1px;
 	background-color: #bab9b9 ;
 	border-bottom: 1px solid #e1e1e1 ;
 }
 
+.columns {
+	-moz-column-count: 3;
+	-moz-column-gap: 20px;
+}
 
 /* -----------------------------------------
 	 	 	 ∆ MAIN CONTENT 
@@ -157,6 +162,7 @@ h1 {
 
 h2 {
 	font-size: 30px;
+	color: #088b9e;
 }
 
 
