@@ -47,7 +47,7 @@ header {
 	overflow: hidden;
 }
 
-/* --------- ∆ NAV ----------- */
+/* --------- ∆ NAV ---------------------- */
 
 nav {
 	float: right;
@@ -135,6 +135,7 @@ h1 {
 }
 
 .divider {
+	clear: both;
 	margin: 20px 0 0;
 	width: 910px;
 	height: 1px;
@@ -145,6 +146,26 @@ h1 {
 .columns {
 	-moz-column-count: 3;
 	-moz-column-gap: 20px;
+}
+
+.button {
+	float: right;	
+	overflow: hidden;	
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 60px;
+	margin: 5px 60px 20px 0; 
+	text-align: center;
+	text-decoration: none;
+	font: 14px  Helvetica, Arial, sans-serif;	
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	border-radius: 5px;
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+	color: #f3f2f2;
+	border: 1px solid #088b9e;
+	background: #0ec4de;
+	background: linear-gradient(to top, #0ec4de, #088b9e)
 }
 
 /* -----------------------------------------
