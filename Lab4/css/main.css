@@ -12,7 +12,7 @@ body {
 
 }
 
-p, dl, ul{
+p, dl, ul {
 	font: 13px/1.5 Helvetica, Arial, sans-serif;
 	color: #222;
 	margin-top: 0;
@@ -125,7 +125,7 @@ h1 {
 	margin: 10px 0 20px;
 }
 
-#cta .page_content {
+#cta_page_content {
 	width: 910px;
 	margin: -60px auto 0;
 	padding: 20px 20px 0;
@@ -173,16 +173,18 @@ h1 {
 ----------------------------------------- */
 
 
-.page_content {
+#page_content {
 	width: 910px;
-	margin: 0 auto;
+	margin: 0 auto 40px;
 	padding: 20px;
 	background-color: #f3f2f2;
 	overflow: hidden;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 32px;
 	color: #088b9e;
 	margin: 0 0 5px;
 }
@@ -204,6 +206,24 @@ aside {
 dl dt {
 	font-weight: bold;
 }
+
+/* --------- ∆ GALLERY------------------- */
+
+ul#gallery {
+	list-style: none;
+	overflow: hidden;
+	padding: 0;
+}
+
+ul#gallery li {
+	float: left;
+	padding: 2px;
+	margin: 15px 0 0 15px;
+	border: 1px solid #888;
+	background-color: #fff; 
+	height: 140px;
+}
+
 
 /* -----------------------------------------
 	 	 	 ∆ FOOTER 
