@@ -271,7 +271,7 @@ a:active {
 	header { height: 250px; padding: 10px 0; }
 	header h1 { float: none; width: 100%; text-align:center; background-color: #E94A30; line-height: 53px; }
 	nav ul { float: none; clear: both; margin: 0; width: 100%; background-color: #E94A30; }
-	nav li { float: none; width: 100%; line-height: 45px; border-bottom: 4px solid #F5563C; }
+	nav li { float: none; width: 100%; line-height: 45px; border-bottom: 4px solid #F5563C; font-size: 1.42857em; }
 	nav a:hover { background-color: #F5563C; }
 	ul#gallery { width: 32.743%; margin: auto; }
 	ul# gallery li { float: none;c}
