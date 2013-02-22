@@ -81,6 +81,7 @@ nav a:hover {
 	background: url(../images/banner.png) #5fC5C8 center scroll no-repeat; 
 /* 	padding: 0 20%; */
 	height: 400px;
+	margin: auto;
 }
 
 section {
@@ -267,7 +268,7 @@ a:active {
 
 @media only screen and (max-width: 585px) {
 	
-	.banner_img { background: url(../images/banner_mq_585-2.png) #5fc5c8 center scroll no-repeat; height: 270px; }	
+	.banner_img { background: url(../images/banner_mq_585-2.png) #5fc5c8 center scroll no-repeat; height: 270px; max-width: 100%;}	
 	header { height: 250px; padding: 10px 0; }
 	header h1 { float: none; width: 100%; text-align:center; background-color: #E94A30; line-height: 53px; }
 	nav ul { float: none; clear: both; margin: 0; width: 100%; background-color: #E94A30; }
