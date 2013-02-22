@@ -274,7 +274,7 @@ a:active {
 	header h1 { float: none; width: 100%; text-align:center; background-color: #E94A30; line-height: 53px; }
 	nav ul { float: none; clear: both; margin: 0; width: 100%; background-color: #E94A30; }
 	nav li { float: none; width: 100%; border-bottom: 4px solid #F5563C; }
-	nav a:hover { background-color: #F5563C;  }
+	nav a:hover { background-color: #F5563C; }
 	ul#gallery { width: 32.743%; margin: auto; }
 	ul# gallery li { float: none;}
 	.column_one { float:none; width: auto; }
