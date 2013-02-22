@@ -77,6 +77,12 @@ nav a:hover {
 	background-color: #5fC5C8;
 }
 
+.banner_img {
+	background: url(../images/banner.png) #5fC5C8 center scroll no-repeat; 
+/* 	padding: 0 20%; */
+	height: 400px;
+}
+
 section {
 	clear: both;
 	padding: 0;
@@ -158,6 +164,7 @@ ul#gallery {
 ul#gallery li{
 	float: left;
 	margin: 15px 3.125% 15px; /* 15px 30px 15px 0 */
+	max-width:100%;
 	list-style-type: none;		
 }
 
@@ -247,7 +254,8 @@ a:active {
 }
 
 @media only screen and (max-width: 794px) {
-	
+
+	.banner_img { background: url(../images/banner_mq_794.png) #5fc5c8 center scroll no-repeat; height: 335px;}	
 	nav ul { width: 65%; }
 	.column_one { float:none; width: auto; }
 	#see_also { float: none; width: auto; margin-bottom: 25px;}
@@ -259,6 +267,7 @@ a:active {
 
 @media only screen and (max-width: 585px) {
 	
+	.banner_img { background: url(../images/banner_mq_585-2.png) #5fc5c8 center scroll no-repeat; height: 270px;}	
 	header { height: 210px; padding: 10px 0; }
 	header h1 { float: none; width: 100%; text-align:center; background-color: #E94A30; line-height: 53px; }
 	nav ul { float: none; clear: both; margin: 0; width: 100%; background-color: #E94A30; }
