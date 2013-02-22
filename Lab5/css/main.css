@@ -259,13 +259,14 @@ a:active {
 @media only screen and (max-width: 794px) {
 	
 	/*ul#gallery { width: 474px; }  */
+	nav ul { width: 65%; }
 	.column_one { float:none; width: auto; }
 	#see_also { float: none; width: auto; margin-bottom: 25px;}
 	.column_two {float: none; width: auto; }
 	.divider { display: none; } 
 	.center { width: 90%; }
 
-}
+} 
 
 	 	
 	 	
