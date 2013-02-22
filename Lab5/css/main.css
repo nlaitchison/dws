@@ -13,6 +13,10 @@ body {
 	background-color: #FCFCFC;	
 }
 
+img {
+	max-width: 100%;
+}
+
 
 /* -------------------------------------------------------------------------------------------------------
 	 	 	 ∆ HEADER
@@ -38,7 +42,7 @@ header h1 {
 
 nav ul{
 	float: right;
-	width: 420px;
+	width: 43.75%; /* 420px */
 	margin: 12px 0;
 	padding: 0;
 	overflow: hidden;	
@@ -46,7 +50,7 @@ nav ul{
 
 nav li{
 	float: left;
-	width: 105px;
+	width: 25%; /* 105px */
 	padding: 0 0;
 	list-style-type: none;	
 	line-height: 35px;
@@ -100,9 +104,9 @@ h3 {
 
 .divider {
 	float: left;
-	width: 2px;
+	width: .208%; /* 2px */
 	height: 355px;
-	margin: 20px;
+	margin: 19px;
 	background-color: #DDD;
 }
 
@@ -114,11 +118,11 @@ h3 {
 }
 
 .column_one { 
-	width: 690px;
+	width: 71.875%; /* 690px */
 }
 
 .column_two { 
-	width: 439px;
+	width: 45.729167%; /* 439px */
 }
 
 .column_two img {
@@ -128,7 +132,7 @@ h3 {
 
 #see_also {
 	float: right;
-	width: 220px;
+	width: 22.917%; /* 220px */
 	margin: 15px 0;
 	padding: 0 10px;
 	background-color: #E8E8E8;
@@ -136,7 +140,7 @@ h3 {
 }
 
 #see_also ul{
-	width: 202px;
+	width: 91.818%; /* 202px */
 	margin: 0 0 10px;
 	padding: 5px 0 10px 18px;
 	
@@ -213,7 +217,7 @@ a:active {
 
 
 .center {
-	width: 960px;
+	width: 66.667%; /* 960px */
 	margin: auto;
 }
 
