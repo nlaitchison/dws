@@ -268,6 +268,23 @@ a:active {
 
 } 
 
+@media only screen and (max-width: 585px) {
+	
+	header { height: 156px; padding: 10px 0;}
+	header h1 { display: none; }
+	nav ul { float: none; clear: both; margin: 0; width: 100%; background-color: #E94A30; }
+	nav li { float: none; width: 100%; border-bottom: 4px solid #F5563C;}
+	nav a:hover { background-color: #F5563C;  }
+	ul#gallery { width: 32.743%; margin: auto; }
+	ul# gallery li { float: none;}
+	.column_one { float:none; width: auto; }
+	#see_also { float: none; width: auto; margin-bottom: 25px;}
+	.column_two {float: none; width: auto; }
+	.divider { display: none; } 
+	.center { width: 95%; }
+
+} 
+
 	 	
 	 	
 	 	
