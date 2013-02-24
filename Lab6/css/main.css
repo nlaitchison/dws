@@ -1,0 +1,134 @@
+/* -------------------------
+ 
+ blue: #4a7cb6
+
+--------------------------*/
+
+/* -------------------------------------------------------------------------------------------------------
+	 	 	 ∆ GENERAL
+------------------------------------------------------------------------------------------------------- */
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #4a7cb6;
+}
+
+#wrapper {
+	width: 760px;
+	margin: 0 auto;
+	background-color: #fff;
+	position: relative;
+}
+
+h1, h2 {
+	font-family: Verdana;
+/* 	margin: 0px; */
+}
+
+p {
+
+}
+
+
+/* -------------------------------------------------------------------------------------------------------
+	 	 	 ∆ GLOBAL
+------------------------------------------------------------------------------------------------------- */
+
+
+#global_shadow {
+	background: url(../img/global_shadow.png) no-repeat top center;
+	position: absolute;
+	left: 20px;
+	top: 200px;
+	width: 215px;
+	min-height: 550px;
+}
+
+#global {
+	background-color: #fff; */
+	width: 212px;
+	min-height: 550px;
+	margin: 0 auto; 
+	font: 12px Arial, sans-serif; 
+}
+
+h1#intellectual_business_solutions {
+	background: url(../img/bg_intellectual_business_solutions.png) no-repeat center #fff;
+	border-top: 10px solid #016a8d;
+	border-bottom: 3px solid #f19f6b;
+	margin: 0 auto;
+	padding: 10px 0;
+	width: 213px;
+	height: 46px;
+}
+
+h1#intellectual_business_solutions a{
+	display: block;
+	text-indent: -20000px;
+	width: 213px;
+	height: 46px;
+	margin: 0 auto;
+		
+}
+
+ul#nav {
+
+}
+
+ul#nav li {
+	list-style-type: none;
+}
+
+ul#nav li a {
+	text-decoration: none;
+}
+
+#active {
+
+}
+
+#quote {
+
+}
+
+address {
+
+}
+
+span {
+
+}
+
+strong {
+
+}
+
+p#phone {
+
+}
+
+/* -------------------------------------------------------------------------------------------------------
+	 	 	 ∆ CONTENT
+------------------------------------------------------------------------------------------------------- */
+
+
+h2#header {
+	background: url(../img/bg_header.jpg) no-repeat top center;
+	height: 278px;
+	margin: 0px;
+}
+
+#content {
+	font: 12px Verdana, sans-serif;
+	background: url(../img/sprocket.gif) no-repeat top right #fff;
+	width: 486px;
+	position: absolute;
+	left: 234px;
+	padding: 0 20px;
+}
+
+.content_img {
+
+}
