@@ -12,7 +12,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #4a7cb6;
+	background: url(../img/bg_shadow.png) #4a7cb6 no-repeat top center;
 }
 
 #wrapper {
@@ -20,11 +20,11 @@ body {
 	margin: 0 auto;
 	background-color: #fff;
 	position: relative;
+	overflow:visible;
 }
 
 h1, h2 {
 	font-family: Verdana;
-/* 	margin: 0px; */
 }
 
 p {
@@ -47,8 +47,8 @@ p {
 }
 
 #global {
-	background-color: #fff; */
-	width: 212px;
+	background-color: #fff; 
+	width: 213px;
 	min-height: 550px;
 	margin: 0 auto; 
 	font: 12px Arial, sans-serif; 
@@ -74,23 +74,34 @@ h1#intellectual_business_solutions a{
 }
 
 ul#nav {
-
+	padding: 0;
+	margin-top: 0;
 }
 
 ul#nav li {
 	list-style-type: none;
+	padding-left: 30px;
+	width: 183px;
+	border-bottom: 1px solid #d8d8d8;
+	line-height: 30px
 }
 
-ul#nav li a {
+ul#nav li a:link, a:visited  {
 	text-decoration: none;
+	font-size: 14px;
+	font-style: italic;
+	color: #424242;
 }
 
 #active {
-
+	color: #4a7cb6;
 }
 
 #quote {
-
+	padding: 0 15px 0 30px;
+	font: italic normal bold 14px 'Trebuchet MS', sans-serif;
+	color: #cccccc;
+	
 }
 
 address {
@@ -123,9 +134,9 @@ h2#header {
 #content {
 	font: 12px Verdana, sans-serif;
 	background: url(../img/sprocket.gif) no-repeat top right #fff;
-	width: 486px;
+	width: 485px;
 	position: absolute;
-	left: 234px;
+	left: 235px;
 	padding: 0 20px;
 }
 
