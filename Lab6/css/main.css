@@ -152,6 +152,7 @@ h2#header {
 }
 
 #map {
+	margin-top: 15px;
 	width: 480px;
 	height: 480px;
 }
