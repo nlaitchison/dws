@@ -5,19 +5,17 @@
 
 body {
 	font: 16px Helvetica, sans-serif;
-	color: #cacaca;
+	color: #CACACA;
 	background: url(../images/shattered_bg.png);
-
 }
 
 #container {
 	width: 600px;
 	margin: 40px auto;
 	padding: 20px;
-	border: 1px solid #0d57ff;
-	background-color: #2e2e2e;
+	border: 1px solid #0D57FF;
+	background: #2E2E2E;
 	box-shadow: 1px 1px 10px #151515;
-	
 }
 
 a {
@@ -25,7 +23,7 @@ a {
 }
 
 a:hover {
-	color: #cacaca;
+	color: #CACACA;
 }
 
 strong {
@@ -35,7 +33,7 @@ strong {
 
 h1 { 
 	margin: 0 0 15px;
-	color: #0d57ff;
+	color: #0D57FF;
 	font: normal normal normal 44px 'Open Sans Condensed', sans-serif;
 	border-bottom: 2px solid;letter-spacing: 1.5px;
 }
@@ -71,10 +69,17 @@ label {
 }
 
 input, textarea {
-	width: 150px;
-	height: 20px;
 	border-radius: 2px;
 	border: 2px solid #484848;
+}
+
+input:focus, textarea:focus {
+	border: 2px solid #0B56FF;
+}
+
+input {
+	width: 150px;
+	height: 20px;
 }
 
 textarea {
@@ -85,17 +90,17 @@ select, option {
 	font-size: 13px;
 }
 
+
 .note {
 	margin: 10px 10px 10px 160px;
 	font-size: 12px;
-	color: #0d57ff;
+	color: #0D57FF;
 }
 
 #section-dob {
 	padding-bottom: 15px;
 	margin-bottom: 15px;
 	border-bottom: 2px solid #323232;
-	
 }
 
 
@@ -122,15 +127,15 @@ select, option {
 	-moz-box-shadow: 0 1px 2px rgba(83,92,212, .2);
 	box-shadow: 0 1px 2px rgba(83,92,212, .2);
 	background: #2e37af;
-	background: -webkit-gradient(linear, left top, left bottom, from(#0d57ff), to(#1d247c));
-	background: -moz-linear-gradient(top,   #0d57ff,   #1d247c);
+	background: -webkit-gradient(linear, left top, left bottom, from(#0D57FF), to(#1D247C));
+	background: -moz-linear-gradient(top,   #0D57FF,   #1D247C);
 }
 
 .controls input#submit:hover {
-	border: solid 1px  #2e37af;
-	background: #2e37af;
-	background: -webkit-gradient(linear, left top, left bottom, from(#0d57ff), to(#1d247c));
-	background: -moz-linear-gradient(top,   #2e37af,   #172076);
+	border: solid 1px  #2E37Af;
+	background: #2E37Af;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0D57FF), to(#1D247C));
+	background: -moz-linear-gradient(top,   #2E37AF,   #172076);
 }
 
 .controls {
@@ -164,7 +169,7 @@ p, .profile-link-prefix{
 }
 
 .profile-link-prefix {
-	color: #5f5f5f;
+	color: #5F5F5F;
 	line-height: 25px;
 }
 
@@ -180,6 +185,7 @@ p, .profile-link-prefix{
 
 #gender input {
 	float: left;
+	width: 20px;
 	height: 25px;
 	margin: 0;
 }
